@@ -56,11 +56,11 @@ a {
 }
 
 .next-button-and-quit a:nth-child(1) {
-  color: red;
+  color: var(--quit-button-color);
 }
 
 .next-button-and-quit a:nth-child(2) {
-  color: green;
+  color: var(--next-button-color);
 }
 
 .primary-button:hover {
