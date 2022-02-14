@@ -1,0 +1,60 @@
+@import url(/main.css);
+
+body {
+  height: 100vh;
+  display: flex;
+  background-color: var(--background-color);
+  font-family: var(--default-font-family);
+}
+
+.category-title {
+  color: var(--primary-color);
+}
+
+.category-container {
+  margin: auto;
+  max-width: 40rem;
+  color: var(--white);
+}
+
+.category-card-container {
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.imageContainer {
+  height: 10rem;
+  flex-shrink: 0;
+}
+
+.content {
+  margin-bottom: 2rem;
+  color: var(--white);
+}
+
+.card-content {
+  padding-right: 1rem;
+}
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: var(--primary-color);
+  margin-top: 1rem;
+}
+
+.image {
+  object-fit: fill;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.card-skeleton {
+  border-radius: 0.5rem;
+  height: 17rem;
+  border-radius: 1rem;
+  background-color: var(--card-background-color);
+}
+.card-button {
+  border-radius: 1rem;
+}
