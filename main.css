@@ -1,7 +1,6 @@
-
-:root{
-    --primary-color:blueviolet;
-    --background-color:#0c0d13;
-    --default-font-family: roboto;
+:root {
+  --primary-color: blueviolet;
+  --background-color: #0c0d13;
+  --card-background-color: #272626;
+  --default-font-family: roboto;
 }
-

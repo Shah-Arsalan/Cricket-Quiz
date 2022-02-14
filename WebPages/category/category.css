@@ -53,7 +53,7 @@ body {
   border-radius: 0.5rem;
   height: 17rem;
   border-radius: 1rem;
-  background-color: #272626;
+  background-color: var(--card-background-color);
 }
 .card-button {
   border-radius: 1rem;
