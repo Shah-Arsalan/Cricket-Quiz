@@ -1,5 +1,4 @@
 @import url(/main.css);
-
 body {
   background: var(--background-color);
   color: var(--white);
@@ -9,27 +8,20 @@ a {
   text-decoration: none;
 }
 
-.questions-page {
+.answers-page {
   display: flex;
   justify-content: center;
   height: 100vh;
 }
 
-.questions-container {
+.answers-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5rem;
   max-width: 40rem;
   color: var(--white);
   padding: 2rem;
   gap: 2rem;
-}
-
-.question-score-details {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
 
 .question {
@@ -40,13 +32,7 @@ a {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-}
-
-.options button {
-  padding: 1rem;
-  border: transparent;
-  cursor: pointer;
+  gap: 1rem;
 }
 
 .next-button-and-quit {
@@ -65,4 +51,35 @@ a {
 
 .primary-button:hover {
   background-color: var(--button-hover-color);
+}
+
+.alert {
+  width: 100%;
+}
+
+.alert {
+  padding: 1rem;
+  justify-content: center;
+  border-radius: 1rem;
+  color: white;
+}
+
+.success {
+  background-color: var(--next-button-color);
+}
+
+.error {
+  background-color: var(--quit-button-color);
+}
+
+.normal {
+  background-color: var(--primary-color);
+}
+
+.options {
+  margin-top: 2rem;
+}
+
+.result-container:last-child {
+  padding-bottom: 2rem;
 }
