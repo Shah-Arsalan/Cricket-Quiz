@@ -1,0 +1,68 @@
+@import url(/main.css);
+
+body {
+  background: var(--background-color);
+  color: var(--white);
+}
+
+a {
+  text-decoration: none;
+}
+
+.questions-page {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.questions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  width: 40rem;
+  color: var(--white);
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.question-score-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.question {
+  width: 100%;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.options button {
+  padding: 1rem;
+  border: transparent;
+  cursor: pointer;
+}
+
+.next-button-and-quit {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.next-button-and-quit a:nth-child(1) {
+  color: var(--quit-button-color);
+}
+
+.next-button-and-quit a:nth-child(2) {
+  color: var(--next-button-color);
+}
+
+.primary-button:hover {
+  background-color: var(--button-hover-color);
+}
