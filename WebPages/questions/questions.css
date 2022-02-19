@@ -66,3 +66,7 @@ a {
 .primary-button:hover {
   background-color: var(--button-hover-color);
 }
+
+.questions-page button {
+  border: transparent;
+}
